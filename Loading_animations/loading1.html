@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Dameit</title>
+		<meta name="description" content="For the love of bags" />
+		<meta name="keywords" content="bags, designer bags, designer bags in bangalore" />
+		<meta name="author" content="Aashray" />
+		<link href='http://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple' rel='stylesheet' type='text/css'>
+		<style>
+		body
+		{
+			background-color:black;
+			font-family: 'Rancho', cursive;
+		}
+		#dameit
+		{
+			position:fixed;
+			color:purple;
+			font-size:56px;
+			left:35%;
+		}
+		#loading
+{
+	position: fixed;
+	background: #000;
+	left: 45%;
+	top:40%;
+	display: block;
+	width: 2%;
+	height:2%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+    background-image: url("./images/logo_small.jpg");
+	transition: 0.1s;
+	-webkit-animation: loadinganim 10s infinite; /* Safari 4+ */
+	-moz-animation:    loadinganim 10s infinite; /* Fx 5+ */
+	-o-animation:      loadinganim 10s infinite; /* Opera 12+ */
+	animation:         loadinganim 10s infinite; /* IE 10+ */
+}
+@-webkit-keyframes loadinganim {
+  0%   { transform:rotate(3.6deg);
+		-ms-transform:rotate(3.6deg); /* IE 9 */
+		-webkit-transform:skew(10deg,10deg); /* Safari and Chrome */ 
+		width:10%;
+		height:10%;}
+  100% { transform:rotate(360deg);
+		-ms-transform:rotate(360deg); /* IE 9 */
+		-webkit-transform:skew(180deg,180deg); /* Safari and Chrome */ 
+		width:12%;
+		height:12%;}
+}
+@-moz-keyframes loadinganim {
+  0%   { transform:rotate(3.6deg);
+		-ms-transform:rotate(3.6deg); /* IE 9 */
+		-webkit-transform:rotate(3.6deg); /* Safari and Chrome */ 
+		width:2%;
+		height:2%}
+  100% { transform:rotate(360deg);
+		-ms-transform:rotate(360deg); /* IE 9 */
+		-webkit-transform:rotate(360deg); /* Safari and Chrome */ 
+		width:10%;
+		height:10%;}
+}
+@-o-keyframes loadinganim {
+   0%   { transform:rotate(3.6deg);
+		-ms-transform:rotate(3.6deg); /* IE 9 */
+		-webkit-transform:rotate(3.6deg); /* Safari and Chrome */ 
+		width:2%;
+		height:2%}
+  100% { transform:rotate(360deg);
+		-ms-transform:rotate(360deg); /* IE 9 */
+		-webkit-transform:rotate(360deg); /* Safari and Chrome */ 
+		width:10%;
+		height:10%;}
+}
+		</style>
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+		$(window).load(function() {
+        // Animate loader off screen
+        //$("#loading").hide();
+		//alert("loaded");
+		});
+		</script>
+		<div id="loading"></div>
+		<div class="font-effect-shadow-multiple" id="dameit">Dameit ! We are loading</div>
+	</body>
+</html>
