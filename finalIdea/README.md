@@ -1,3 +1,3 @@
-Created by Codrops
+An Aashray Arora Production
 
-Please read more about our license here: http://tympanus.net/codrops/licensing/ 
+http://aashrayarora.com
