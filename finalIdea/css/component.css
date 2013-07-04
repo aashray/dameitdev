@@ -131,9 +131,12 @@ span.cbp-biprev:before {
 	position: fixed;
 	opacity:0.4;
 }
+.cbp-spmenu:hover{
+	opacity:0.8;
+}
 
 .cbp-spmenu h3 {
-	color: #afdefa;
+	color: #FFF;
 	font-size: 1.9em;
 	padding: 20px;
 	margin: 0;
@@ -151,12 +154,12 @@ span.cbp-biprev:before {
 .cbp-spmenu a:hover {
 	background: #FFF;
 	color:#000;
-	opacity:0.4;
+	opacity:1.0;
 }
 
 .cbp-spmenu a:active {
-	background: #afdefa;
-	color: #47a3da;
+	background: #BDBDBD;
+	color: #000;
 }
 
 /* Orientation-dependent styles for the content of the menu */
@@ -199,7 +202,7 @@ span.cbp-biprev:before {
 		font-weight: 300;
 		left: 0px;
 		top:45%;	
-		opacity:0.4;
+		opacity:0.7;
 		width: 70px;
 		z-index:1000;
 		border:none;
@@ -210,8 +213,8 @@ span.cbp-biprev:before {
 }
 #showLeft:active
 {
-	background: #afdefa;
-	color: #47a3da;
+	background: #BDBDBD;
+	color: #000;
 }
 #loading
 {
